@@ -1,6 +1,11 @@
 https://github.com/rabbitmq/rabbitmq-server/discussions/11262#discussioncomment-9523092
 
-Instructions:
+## Setup
+
+* Run `pipenv install` to setup the necessary Python libraries.
+* Run `pipenv shell` to activate those libraries in your current shell session.
+
+## Reproduction
 
 1) start rmq 3.12 by up312.sh script
 2) publish 10 messages in mqtt with publishMqtt.py
