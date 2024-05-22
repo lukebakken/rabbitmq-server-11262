@@ -1,7 +1,4 @@
-version: "3.8"
-
 services:
-
   rabbitmq:
     container_name: rabbitmq
     image: rabbitmq:3.13.2-management
@@ -19,10 +16,3 @@ services:
       - 1883:1883 
       - 5551:5551 
       - 5552:5552 
-    networks:
-    - backend
-    - frontend
-    restart: always 
-networks:
-  backend:
-  frontend:
